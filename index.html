@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⚔️ Solo Leveling SV17 - My First AI-Powered Game</title>
+    <meta name="description" content="Solo Leveling SV17 - A complete RPG game built by a beginner using AI assistance. Features 10 ranks, voice commands, daily quests, shop, and 24 achievements.">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
@@ -58,11 +59,10 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 0 40px rgba(0,216,255,0.3);
+            background: #000;
         }
-        .video-container iframe,
         .video-container video {
             width: 100%;
-            height: 450px;
             display: block;
         }
         
@@ -179,10 +179,12 @@
             .card { width: 150px; padding: 15px; }
             .stats { gap: 30px; }
             .stat .number { font-size: 30px; }
+            .btn { padding: 12px 25px; font-size: 14px; }
         }
     </style>
 </head>
 <body>
+    <!-- HERO SECTION -->
     <div class="hero">
         <h1>⚔️ SOLO LEVELING SV17</h1>
         <h2>HYBRID ULTIMATE</h2>
@@ -191,11 +193,11 @@
         
         <div style="margin-top:30px;">
             <a href="https://github.com/ashiqhussain-97/Solo-Leveling-SV17" class="btn btn-primary">📂 View Source Code</a>
-            <a href="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/archive/refs/heads/main.zip" class="btn btn-outline">⬇️ Download Game</a>
+            <a href="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases" class="btn btn-outline">⬇️ Download Game</a>
         </div>
     </div>
     
-    <!-- Stats Counter -->
+    <!-- STATS COUNTER -->
     <div class="stats">
         <div class="stat"><div class="number">10</div><div class="label">Ranks (E→MONARCH)</div></div>
         <div class="stat"><div class="number">24</div><div class="label">Achievements</div></div>
@@ -203,22 +205,21 @@
         <div class="stat"><div class="number">15+</div><div class="label">Voice Commands</div></div>
     </div>
     
-    <!-- Video Section -->
+    <!-- VIDEO SECTION -->
     <div class="video-section">
         <h3>🎬 Gameplay Demo</h3>
         <div class="video-container">
-            <!-- REPLACE WITH YOUR YOUTUBE VIDEO -->
-            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
-                    title="Solo Leveling SV17 Gameplay" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-            </iframe>
+            <!-- ⚠️ YAHAN APNI VIDEO FILE KA SAHI NAAM DALEN ⚠️ -->
+            <video controls poster="thumbnail.jpg">
+                <source src="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases/download/v1.0/YOUR_VIDEO_FILE.mp4" type="video/mp4">
+                Your browser does not support the video tag. 
+                <a href="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases/tag/v1.0" style="color:#00D8FF;">Watch on GitHub Releases</a>
+            </video>
         </div>
         <p style="color:#888; margin-top:12px; font-size:14px;">Watch the complete gameplay walkthrough!</p>
     </div>
     
-    <!-- Features Grid -->
+    <!-- FEATURES GRID -->
     <div class="features">
         <div class="card">
             <div class="icon">🎯</div>
@@ -262,7 +263,7 @@
         </div>
     </div>
     
-    <!-- My Story Section -->
+    <!-- MY STORY -->
     <div class="story">
         <h3>📖 My Story - From Beginner to Game Developer!</h3>
         <p>
@@ -292,7 +293,7 @@
         </p>
     </div>
     
-    <!-- Voice Commands Table -->
+    <!-- VOICE COMMANDS TABLE -->
     <div class="commands-section">
         <h3>🎤 Voice Commands (Yes, you can talk to the game!)</h3>
         <table>
@@ -310,7 +311,7 @@
         </table>
     </div>
     
-    <!-- Setup Instructions -->
+    <!-- SETUP INSTRUCTIONS -->
     <div class="setup">
         <h3>🚀 How to Run on Your Computer</h3>
         <code>git clone https://github.com/ashiqhussain-97/Solo-Leveling-SV17.git</code>
@@ -321,6 +322,7 @@
         <p style="color:#aaa; margin-top:15px; font-size:14px;">Requires Python 3.10+ | Works on Windows</p>
     </div>
     
+    <!-- FOOTER -->
     <footer>
         <p>⚔️ <strong>Solo Leveling SV17 Hybrid Ultimate</strong></p>
         <p>Built with <span class="heart">❤️</span> and AI Assistance by <strong>Ashiq Hussain</strong></p>
@@ -328,8 +330,4 @@
         <p style="margin-top:15px; font-size:12px;">© 2024 Ashiq Hussain. All Rights Reserved.</p>
     </footer>
 </body>
-
-<video controls width="100%" height="450">
-    <source src="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases/download/v1.0/gameplay.mp4" type="video/mp4">
-</video>
-    </html>
+</html>
