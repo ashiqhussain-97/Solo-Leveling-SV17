@@ -61,9 +61,11 @@
             box-shadow: 0 0 40px rgba(0,216,255,0.3);
             background: #000;
         }
-        .video-container video {
+        .video-container iframe {
             width: 100%;
+            height: 450px;
             display: block;
+            border: none;
         }
         
         .stats {
@@ -180,6 +182,7 @@
             .stats { gap: 30px; }
             .stat .number { font-size: 30px; }
             .btn { padding: 12px 25px; font-size: 14px; }
+            .video-container iframe { height: 250px; }
         }
     </style>
 </head>
@@ -205,16 +208,18 @@
         <div class="stat"><div class="number">15+</div><div class="label">Voice Commands</div></div>
     </div>
     
-    <!-- VIDEO SECTION -->
+    <!-- VIDEO SECTION - YOUTUBE EMBED -->
     <div class="video-section">
         <h3>🎬 Gameplay Demo</h3>
         <div class="video-container">
-            <!-- ⚠️ YAHAN APNI VIDEO FILE KA SAHI NAAM DALEN ⚠️ -->
-            <video controls poster="thumbnail.jpg">
-                <source src="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases/download/v1.0/YOUR_VIDEO_FILE.mp4" type="video/mp4">
-                Your browser does not support the video tag. 
-                <a href="https://github.com/ashiqhussain-97/Solo-Leveling-SV17/releases/tag/v1.0" style="color:#00D8FF;">Watch on GitHub Releases</a>
-            </video>
+            <iframe 
+                src="https://www.youtube.com/embed/g2qJXk3bmtI?si=dXrzyre8ARcP5Ztu" 
+                title="Solo Leveling SV17 Gameplay Demo" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
         </div>
         <p style="color:#888; margin-top:12px; font-size:14px;">Watch the complete gameplay walkthrough!</p>
     </div>
